@@ -1,0 +1,23 @@
+
+1) What is the difference between stronly and loosely typed programming languages? 
+Give an example of a language that falls into each category.
+   A strongly typed programming language is one that already has predefined types of
+data for all of the variable, and can be easliy manipulated. Loosely typed programming 
+languages require you to define each variable with the data type normally at the beginning
+of the program. An example of a strongly typed program is Perl, Ruby, and Python. While 
+Java and all of the C programs are considered a loosely typed programming languages.
+
+2)What is the difference between stacks and queues?
+   Stacks is where you would add and subtract from the end of the pile (aka the last
+variable you entered in) and queues takes from the top of the pile(aka the first 
+variable that you entered in).
+
+
+3)What 3 things do you need to do to control a loop in most programming languages?
+   Set, Test, and Change
+
+4)What is the diffference between compiled and interpreted programming languages?
+Give an example of a language that falls into each category.
+   Compiled is where the computer looks at the entire program at once where an interpreted
+is where the computer does it line by line. Perl is a interppreted. Java is kinda both. 
+C++ is a compiled.

@@ -1,0 +1,28 @@
+	Create a text file that contains your responses to the 
+following promps:
+
+A) Describe what a file handle is and why it is useful.
+	A file handle lets you access a text file somewhere else
+and depending on how you set the handle up you can edit it, read
+it, and rewrite it. This is very helpful when you have large '.txt'
+files that need to be manipulated for a job, or if you need to 
+access multiple files.
+
+B) Describe what a regular expression is and why it is useful.
+	Regular expressions is a line of code that is able to help
+look at and edit a line very fast. This is very helpful if you don't
+want to rewrite things individually or want to scan through it 
+yourself.
+
+C) Describe what a subroutine is and why it is usefil.
+	Subroutines are a way you can code what you want to happen
+on its own so later on you can access it as many times as needed
+over time. This is very useful when you need to do the samething 
+multiple times, but don't want to write it out.
+
+D) Descibe what a module is and why it is useful.
+	A module is a code that is prewriten and used in other
+codes so its easy to repeat without recoding anything. Sometimes
+you can use other people work if you have access to it. Useful
+when you need to do the same thing on different files and things of code
+
