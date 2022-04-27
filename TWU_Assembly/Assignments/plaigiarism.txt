@@ -1,0 +1,12 @@
+plagiarism.txt
+
+Prompt: 
+	Research what is meant by plaigiarism in programming/computer science/informatics and write a short summary of it (3-4 sentences minimum) in a file called plagiarism.txt. Submit your file in the Assignments directory of your Git repo.  If you have questions on what is considered plagiarism in this field, please ask during the q&a sessions this week.
+	
+Assignment:
+	Programing plagiarism is based on if someone other the creator uses a code as their own. There are places that have OSS (Open Source Software) that is designed purly to be used by other programers without the fear of plagiarism. Because a good portion of computer science is learning and building on each other, programing plagiarism is based on another person's source code. A source code is discribed in the site below as a "'before' and 'after' versions of a compiled computer program". According to the second listed site, there are programs like MOSS (Measure of Software Similarity) that is around to look out for plagiarism, since the 1990s. 
+	
+Cites:
+	Wallask, Scott. “What Is Source Code in Programming and How Does It Work?” SearchAppArchitecture, TechTarget, 9 Sept. 2019, searchapparchitecture.techtarget.com/definition/source-code. 	
+	
+	“What Is Programming Plagiarism? Why Is It on the Rise?” Turnitin, 26 Feb. 2021, www.turnitin.com/blog/what-is-programming-plagiarism-why-is-it-on-the-rise. 

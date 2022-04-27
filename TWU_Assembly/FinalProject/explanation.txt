@@ -1,0 +1,5 @@
+Final Project - CSCI 2443
+explanation.txt
+Kara Kohutek
+
+Before the main branch, we have the array, the floating point number and a string declared to look at it later in the code. In the main branch, the first three lines are commiting the floating point into a register. The next lines in main loads the array and the counters needed to know how to use the bubble sort. Next branch is the sort branch. This generally loads the numbers information, compares it, and prpoerly moves to the next numbers for the bubble sort. See code comments for a line-by-line understanding of the code. By the end it will exit once x5 is equivalent to 0. This will only happen once there was no changes made to the code during the last round of comparisons. After that, in the exit branch, we have the printf declared properly before exit through scv. 

@@ -1,0 +1,28 @@
+programming.txt
+Create a file called programming.txt and answer/describe/discuss the following items in a few sentences each.
+
+
+Describe the common elements of a CPU
+
+	The six common elements of a CPU is control unit (CU), arithmetic logic unit (ALU), registers, cache, buses, and clock. The CU is ther one that tells it to fetch, decode or exitcute information and moves the information to the right place. ALU is the one that makes the logical decisions and sifts through information before it goes into memory or secondary storage. The registers is the part that processes the current information, while the cache is a RAM like hardware to hold random memory that is easier to fetch. Buses are fast connections to signal different control signals and data near the processor. Lastly the clock is used to send electrical pulsees to keep everything in time.
+
+Describe what is meant by the the Fetch->Decode->Execute cycle (what happens, how fast it happens, what pieces of hardware are accessed)
+
+	This type of cycle is the main function of the CPU. It is how the CPU processes the infromation needed for the user. Between the ALU, Registers, RAM and Control Unit the cycle goes around with the CPU pulses to access and use the right infromation. 
+
+Explain the difference between virtual and physical memory and why the distinction is made/used
+
+	Virtual and physical memory refers to the different types of ways to hold memory. Physical memory exists on places like RAM that are physically connected to the mother board. Virtual memory is where data is being moved to be used therefore it is not physally stored somewhere. This type of memories storage is based on how much the physically memory can hold and how it is used. It is important to have both to be able to talk to the hard copy and save certain pieces of information. 
+
+Explain the difference between x86 and ARM processors
+
+	While ARM is more focused on single instructions per cycle and takes less time to process information. This is called RISC or Reduced Instruction Set Computer procesor. A x86 can process complex instructions within multiple cycles and over all more time. This type of process is called as a CISC or a Complex Instruction Set Computing processor.
+
+Explain the difference and use of • move vs load commands in ARM64 Assembly
+
+	Move in ARM64 is "mov" this is used to copy and move information to the right register. Loading is "LDR" and it writes this information into the main memory so it can be used effectively.
+
+Describe what half words, words, double words, etc. are in computer architecture/processors
+
+	Half words, words, and double words in computer architecture/processors refer to how much bits they take up where a half word could be 8-bits, words can be 16-bits, and double words can be as long as 32-bits.
+	

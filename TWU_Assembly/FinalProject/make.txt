@@ -1,0 +1,2 @@
+example: example.s
+	gcc -g -o example example.s

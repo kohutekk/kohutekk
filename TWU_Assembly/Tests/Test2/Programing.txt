@@ -1,0 +1,20 @@
+programming.txt
+Kara Kohutek
+
+The executeion cycle of programming is very important because it uses fetch-decode-execute in order to give writing code meaning. Without the computer knowing how to fetch, decode and execute the machine will not be able to know what to read, what it says, and what it means. When using higher level languages (other than binary), the computer has to take extra steps to decode it into binary so it can actually exicute what you are trying to say. It's like you are translating something someone said from Spanish to English back to Spanish. 
+
+Memory Management is very important because it relates to how much information a system can handle. Like the condition of limited power, memory management has different types of hardware and software that can save and store different types of information in different ways. It is also very important to keep in mind of how you are using the information because some information you will want to back up, send, delete, or even stream from. 
+
+Registers and memory are two different types of memory management that both work together while you program. When you are using registers, you are normally holding temporary information that can influence the rest of your code or other imidiate things. Memory by it self is used for more perminate information that can be used after you are done runnning that particular code. 
+
+Virual machines are good to use to be able to store and transfer information without cramming too much memory to your local computer. You can also access them from other computers to make it easier to transfer without having to go through more memory then what is needed. In other cases you can have multi[le different users working off of virual machine so that it can be more effecient in colaborating information or using the same applications.
+
+The different types of computer languages relates to how close it is to what the computer understands by itself. While the computer understand pulses of electricity to siginify binary (the lowest language), it is easier for us coder to write in higher languages that are easier to understand and manipulate. Assemly is the second lowest language that is normally harder to read, but is useful when there is a low level problem that you can't just fix by using the simplified higher languages. 
+
+Decimal 28 in binary is 11100. 
+
+Binary 11111000 into decimal is 248 and into hexadecimal is F8. 
+
+Hexadecimal 0x2e into binary is 46 and into decimal is 101110.
+
+Signed number -10 into 2s complement notation is 11110110.

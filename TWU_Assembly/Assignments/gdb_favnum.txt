@@ -1,0 +1,7 @@
+gdb_favnum.txt
+Kara Kohutek
+
+When using gdb, I am able to take our favnum.s code and break it down to fingure out how to debug it properly. Before I could even debug my favnum, I had to reformate it for my raspberry pi. This was done by changing the exit codes to use the 7th register and the "swi" codes. I also had to change code that used registers by using "R". After that I was able to run the "as" and "ld" commands to compile it and set it up for debugging. Once I was ready, I used "gdb favnum" to break down my code between each breaking point, so can easily see what registers are running and what values that they have at what given point. To do this I used commands after the printed "(gdb) " like "r", "i r", and "q". The command of "b loop" was able to jump to my "loop" branch so I could then run it at that given point. Each of these commands and more are well defined and understood with in the link cited below. 
+
+Cite:
+220, IC. Notes on Using the Debugger Gdb, www.usna.edu/Users/cs/lmcdowel/courses/ic220/S20/resources/gdb.html. 

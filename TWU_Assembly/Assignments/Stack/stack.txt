@@ -1,0 +1,16 @@
+stack.txt with stack.s
+
+Kara Kohutek
+CSCI 2443
+
+When pushing and popping on an created array in AArch 64, you need to use the instructions of 'STP' and 'LDP'. With the example below (and within my stack.s) the numbers within x0 and x1 is being pushed on the 'sp' stack. 
+
+stp x0, x1, [sp, #-16]!
+
+Then with the 'LDP' is used like the example below. With it we are popping x0 and x1 from the 'sp' stack. 
+
+ldp x0, x1, [sp], #16
+
+My information comes from the PDF listed below on page 17 out of 44. This is a useful reasourse that was able to help more than me in class and can possibly used in my future.
+
+file:///C:/Users/kohut/Downloads/ARMv8_InstructionSetOverview%20(1).pdf
