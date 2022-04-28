@@ -1,7 +1,14 @@
 ## Fizz Buzz
 
 num = input("Enter in a number: ");
-if int(num)%3 == 0:
-    print ("Fizz", end = ' ')
-if int(num)%5 == 0:
-    print ("Buzz")
+array = [];
+for x in range(1, int(num) + 1):
+    if (x%3 == 0) and (x%5 == 0):
+        array.append('FizzBuzz')
+    elif x%3 == 0:
+        array.append('Fizz')
+    elif x%5 == 0:
+        array.append('Buzz')
+    else:
+        array.append(x)
+print(array);
