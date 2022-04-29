@@ -17,3 +17,10 @@ answer = [int(i) for i in str(ans)];
 print (answer);
 
 #need a method to reverse string arrays
+
+#a = len(n1) - 1
+#for x in range(len(n1)//2):
+#    num = n1[x]
+#    n1[x] = n1[a]
+#    n1[a] = num
+#    a -= 1
