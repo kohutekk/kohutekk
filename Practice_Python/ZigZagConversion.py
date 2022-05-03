@@ -13,18 +13,26 @@ def second_space(row):
 str = list(input("Enter in a String: "))
 numRow = int(input("Enter number of rows: "))
 totCycle = numRow + (numRow - 2)
-print("")
+
    
 for row in range(numRow):
     for x in range(len(str)):
         
         if x%(totCycle)==0:
-            if x!= 0:
-                print(x - int(row), end='')
+            if row != numRow-1:
+                print("A", end='')
+                first_space(row, numRow)
+            if row != 0:
+                print("B", end='')
                 second_space(row)
-            print(x + int(row), end='')
-            first_space(row, numRow)
+            
+        
     print("")
     
 print("")
 print("Done")
+
+#A--A--
+#A-BA-B
+#AB-AB-
+#B--B--
