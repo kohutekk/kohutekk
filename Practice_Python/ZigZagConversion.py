@@ -18,19 +18,18 @@ print(len(str))
 for row in range(numRow):
     for x in range(len(str)):
         
-        if x == 0:
-            print(x + row, end='')
+        if x == 0 and ((x + row)<len(str)):
+            print(str[x + row], end='')
             first_space(row, numRow)
         
         elif x%(totCycle) == 0:
             if (row != numRow-1) and ((x - row)<len(str)):
-                print(x - row, end='')
+                print(str[x - row], end='')
             second_space(row)
             if (row != 0) and ((x + row)<len(str)):
-                print(x + row, end='')
+                print(str[x + row], end='')
             first_space(row, numRow)
             
-        
     print("")
     
 print("")
