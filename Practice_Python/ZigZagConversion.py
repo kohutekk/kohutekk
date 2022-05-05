@@ -19,20 +19,15 @@ for row in range(numRow):
     for x in range(len(str)):
         
         if x%(totCycle)==0:
-            if row != numRow-1:
-                print("A", end='')
-                first_space(row, numRow)
-            if row != 0:
-                print("B", end='')
+            if row != 0 and x != 0:
+                print(str[x - row], end='')
                 second_space(row)
+            if row != numRow-1:
+                print(str[x + row], end='')
+                first_space(row, numRow)
             
         
     print("")
     
 print("")
 print("Done")
-
-#A--A--
-#A-BA-B
-#AB-AB-
-#B--B--
