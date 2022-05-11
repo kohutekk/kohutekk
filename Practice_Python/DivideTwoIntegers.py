@@ -19,7 +19,15 @@ for x in range(1, length):
 if num1[0] < num2:
     function(divident, num1)
     
-print(num1[0])
+print(num1[0], " - ", num2)
+
+while num1[0] > num2:
+    print("yes")
+    rem = num1[0] - num2
+    qu+=1
+
+print(qu)
+print(num1)
 
 #loop statment that ends when num1 ends (x is placec in quotent list)
     #drop down next number (function)
