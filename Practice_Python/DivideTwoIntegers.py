@@ -22,7 +22,7 @@ if int(num1[0]) < num2:
 print(num1[0], " - ", num2)
 
 while int(num1[0]) >= num2:
-    num1[0] = int(num1[0]) - num2
+    num1[0] = str(int(num1[0]) - num2)
     qu+=1
 
 print(qu)
