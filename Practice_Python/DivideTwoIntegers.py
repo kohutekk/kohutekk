@@ -16,14 +16,13 @@ quotent = 0, qu = 0
 divident = num1[0]
 for x in range(1, length):
     function(divident, num1)
-if num1[0] < num2:
+if int(num1[0]) < num2:
     function(divident, num1)
     
 print(num1[0], " - ", num2)
 
-while num1[0] > num2:
-    print("yes")
-    rem = num1[0] - num2
+while int(num1[0]) >= num2:
+    num1[0] = int(num1[0]) - num2
     qu+=1
 
 print(qu)
