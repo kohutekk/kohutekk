@@ -18,15 +18,13 @@ for x in range(1, length):
     function(divident, num1)
 if int(num1[0]) < num2:
     function(divident, num1)
-    
-print(num1[0], " - ", num2)
 
+#first subtraction
 while int(num1[0]) >= num2:
     num1[0] = str(int(num1[0]) - num2)
     qu+=1
 
-print(qu)
-print(num1)
+print(qu, " - ",num1)
 
 #loop statment that ends when num1 ends (x is placec in quotent list)
     #drop down next number (function)
