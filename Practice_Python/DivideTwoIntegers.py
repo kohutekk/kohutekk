@@ -10,7 +10,8 @@ num2 = input("Enter the divisor: ")
 length = len(list(num2))
 
 divident = num1[0]
-if divident < num2:
+print(num1)
+for x in range(1, length):
     function(divident, num1)
     
-print(divident)
+print(num1[0])
