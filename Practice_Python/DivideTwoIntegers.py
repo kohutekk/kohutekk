@@ -39,3 +39,20 @@ while len(num1) > 1:
     #quotent * 10 + qu
 
 #use num1[0] as remainder and quotent is the answer
+
+#---------------------------------------------------------------------------------------------------------
+
+#first subtraction
+sub(num1, num2, qu)
+quotent = qu
+print(qu, " - ",num1)
+
+#loop statment that ends when num1 ends (x is placec in quotent list)
+while len(num1) > 1:
+    moving(divident, num1)
+    sub(num1, num2, qu)
+    quotent = (quotent * 10) + qu
+
+print("The quotent is: ", quotent)
+print("The remainder is: ", num1[0])
+#use num1[0] as remainder and quotent is the answer
