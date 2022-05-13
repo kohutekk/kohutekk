@@ -28,7 +28,9 @@ while int(num1[0]) >= num2:
 print(qu, " - ",num1)
 
 #loop statment that ends when num1 ends (x is placec in quotent list)
-    #drop down next number (function)
+while len(num1) > 1:
+    function(divident, num1)
+    print(num1)
     #while loop num1[0] < num2
         #subtract num1[0] by num2
             # = remainder
