@@ -10,7 +10,8 @@ def function(divident, num1):
 num1 = list(input("Enter the dividend: "))
 num2 = input("Enter the divisor: ")
 length = len(list(num2))
-quotent = 0, qu = 0
+num2 = int(num2)
+quotent = 0; qu = 0
 
 #setting up
 divident = num1[0]
