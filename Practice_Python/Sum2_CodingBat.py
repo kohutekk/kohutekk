@@ -1,5 +1,5 @@
-# Interview problem
-# https://codingbat.com/prob/p192589
+## Interview problem
+## https://codingbat.com/prob/p192589
 
 # Given an array of ints, return the sum of the first 2 elements in the array. 
 # If the array length is less than 2, just sum up the elements that exist, 
