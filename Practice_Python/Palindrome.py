@@ -1,4 +1,5 @@
 ## Interview problem
+## HackerRank
 
 s = list(input("Enter in a String: "))
 k = int(input("Enter in a number: "))
