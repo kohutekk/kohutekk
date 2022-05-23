@@ -5,6 +5,16 @@ def function(divident, num1):
     divident = num1[0] + num1[1]
     num1[0] = divident
     num1.remove(num1[1])
+ 
+#subtraction
+def sub(num1, num2, ans):  
+    qu = 0
+    while int(num1[0]) >= num2:
+        num1[0] = str(int(num1[0]) - num2)
+        qu+=1
+    return qu
+
+#---------------------------------------------------------------------------------------------------------
 
 #defining
 num1 = list(input("Enter the dividend: "))
