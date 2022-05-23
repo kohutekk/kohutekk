@@ -16,39 +16,27 @@ def sub(num1, num2, ans):
 
 #---------------------------------------------------------------------------------------------------------
 
+
 #defining
 num1 = list(input("Enter the dividend: "))
 num2 = input("Enter the divisor: ")
 length = len(list(num2))
 num2 = int(num2)
-quotent = 0; qu = 0
+ans = 0
 
-#setting up
+#settint up and first subtraction 
 divident = num1[0]
 for x in range(1, length):
     function(divident, num1)
 if int(num1[0]) < num2:
     function(divident, num1)
 
-#first subtraction
-while int(num1[0]) >= num2:
-    num1[0] = str(int(num1[0]) - num2)
-    qu+=1
-
-print(qu, " - ",num1)
+ans = sub(num1, num2, ans)
 
 #loop statment that ends when num1 ends (x is placec in quotent list)
 while len(num1) > 1:
     function(divident, num1)
-    print(num1)
-    #while loop num1[0] < num2
-        #subtract num1[0] by num2
-            # = remainder
-            #remainder = num1[0]
-        #add 1 each time to qu
-    #quotent * 10 + qu
-
-#use num1[0] as remainder and quotent is the answer
+    ans = (ans * 10) + sub(num1, num2, ans)
 
 #---------------------------------------------------------------------------------------------------------
 
