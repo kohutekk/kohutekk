@@ -2,13 +2,13 @@
 
 def initiation():
     str = input("Enter list: ")
-    return str.split(' ')
+    return list(map(int, str.split(" ")))
 
 list1 = initiation()
 list2 = initiation()
 list3 = initiation()
-
 anslen = len(list1) + len(list2) + len(list3)
+ans = []
 
 print(anslen)
 print(list1)
