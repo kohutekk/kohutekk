@@ -26,19 +26,26 @@ anslen = len(list1) + len(list2) + len(list3)
 ans = []
     
 for x in range(anslen):
-    if list1 is null:
-        if list2 is null:
-            null2(list3)
-        elif list3 is null:
-            null2(list2)
+    if list1 is none:
+        if list2 is none:
+            #null2(list3)
+            print("null2")
+        elif list3 is none:
+            #null2(list2)
+            print("null2")
         else:
+            print("null1")
             null1(list2, list3)
-    elif list2 is null:
-        if list3 is null:
-            null2(list1)
+    elif list2 is none:
+        if list3 is none:
+            #null2(list1)
+            print("null2")
         else:
+            print("null1")
             null1(list1, list3)
-    elif list3 is null:
+    elif list3 is none:
+        print("null1")
         null1(list3)
     else:
+        print("null0")
         null0()
