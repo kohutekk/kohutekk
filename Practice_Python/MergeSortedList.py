@@ -4,7 +4,7 @@ def initiation():
     str = input("Enter list: ")
     return list(map(int, str.split(" ")))
     
-def main():
+def null0():
     print(list1[0], " - ", list2[0], " - ", list3[0])
     if list1[0] <= list2[0] and list1[0] <= list3[0]:
         print("A")
@@ -26,4 +26,19 @@ anslen = len(list1) + len(list2) + len(list3)
 ans = []
     
 for x in range(anslen):
-    main()
+    if list1 is null:
+        if list2 is null:
+            null2(list3)
+        elif list3 is null:
+            null2(list2)
+        else:
+            null1(list2, list3)
+    elif list2 is null:
+        if list3 is null:
+            null2(list1)
+        else:
+            null1(list1, list3)
+    elif list3 is null:
+        null1(list3)
+    else:
+        null0()
