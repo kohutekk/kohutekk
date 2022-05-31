@@ -1,3 +1,12 @@
 Microsoft Azure A-Z 900 Certification Notes:
 
 Cloud computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
+    Cloud Providers - you are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
+  
+Dedicated server - one host, one machine, one vpn
+    Expensive, high maintenance, high security
+Virtual Private Server - one host, one machine, multiple vpn
+Shared Hosting - multiple host, one machine, multiple vpn
+    Cheap, limited
+Cloud Hosting - Multiple hosts, multiple machines, multiple vpn
+    Scalable, Secure, Cost-Effective, High Configurability
