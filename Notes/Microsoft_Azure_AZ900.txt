@@ -1,0 +1,3 @@
+Microsoft Azure A-Z 900 Certification Notes:
+
+Cloud computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
