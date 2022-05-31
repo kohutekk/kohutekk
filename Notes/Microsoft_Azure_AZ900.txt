@@ -67,4 +67,17 @@ Capital vs Operational Expenditure...
     Operational Expenditure (OPEX) - non-pysical costs with a service provider; Leasing Software and Customizing features, Training Employees in Cloud Services, Paying for Cloud Support, and Billing based on cloud metrics eg. compute and storage usage; can try products without investing in the equiptment. 
     
 Cloud Architecture Terminologies...
-    34:13
+    Availability - ensure a service remains available; High Available (HA)
+    Scalability - ability to grow rapidly or unimpeded
+    Elasticity - ability to shrink or grow to meet the demand
+    Fault Tolerance - ability to prevent a failure 
+    Disaster Recovery - ability to recover from failure; Highly Durable (DR)
+    
+HA (High Availability)...
+    Ability for the service to remain availible by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs becone unvailable, the service remains available
+    Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will rout the traffic to availble datacenters
+
+High Scalability...
+    37:00
+
+
