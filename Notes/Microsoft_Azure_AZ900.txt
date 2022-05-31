@@ -78,6 +78,25 @@ HA (High Availability)...
     Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will rout the traffic to availble datacenters
 
 High Scalability...
-    37:00
+    Increase the capacity based on the increasing demand of traffic, memory and computing power
+    Vertical Scaling - Upgrade to a bigger server
+    Horizonal Scaling - Add more servers of the same size
+    
+High Elasticity...
+    Automatically increase or decrease the capacity based on the current demand of traffic, memory, and computing power
+    Horizonal Scaling - 
+        Scaling out - adding more servers of same size
+        Scaling in - removing more servers of the same size 
+    Azure VM Scale Set - responds to demand or a defines schedule to increase or decrease
+    SQL Server Stretch Database - stretch warm and cold transactional data from Microsoft SQL Server 2016 to Azure
+    Vertical CSaling is hard for traditional architecture. 
+    
+Fault Tolerance...
+High Durability...
+    ability to recover from a disaster to present the loss of data; Disaster Recovery (DR)
+    - Do you have a backup
+    - How fast can you restore that backup
+    - Does your backup still work
+    - How do you ensure current live data is not corrupt
 
-
+40:27 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
