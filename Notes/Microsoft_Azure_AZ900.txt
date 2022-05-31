@@ -25,5 +25,18 @@ What is Microsoft...
     CSPs - Cloud Service Providers
     
 Benefits of Cloud Computing...
+    Cost-effective - pay for what you consume; no up-front cost; pay as you go (PAYG)
+    Global - launch from anywhere in the world
+    Secure - cloud services can by secure by default
+    Reliable - data backup, disaster reconvery, and data replication, and fault tolerance
+    Scalable - can increase or decrease resources and services based on demand
+    Elastic - Automate scaling during spikes or drop in demand
+    Current - fewer interupptions then on ground (aka if you are updating or updgrading hardware and software)
     
+Types of Cloud Computing...
+    SaaS Software as a Service - a product that is runned and managed by a service provider (for customers); no maintanance, it just workds and remains availible; salesforce, gmail, office 365
+    Paas Platform as a service - focus on deployment and management of apps; no worries about provisioning, configuring or understanding he hardware or OS; heroku, elastic beanstalk, google app engine
+    IaaS Infustructure as a Service - basic building blocks of the coud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
     
+Types of Cloud Computing Responsibilities... 
+    25:09
