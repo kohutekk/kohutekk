@@ -39,4 +39,27 @@ Types of Cloud Computing...
     IaaS Infustructure as a Service - basic building blocks of the coud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
     
 Types of Cloud Computing Responsibilities... 
-    25:09
+    On-Premise - 
+        Customer is Responsible for everything
+    Infrastructure as a service - 
+        Customer is responsible - Applications, Data, Runtime, Middleware, and OS
+        CSP is responsible - Virtualization, Servers, Storage, and Networking
+    Platform as a Service - 
+        Customer is responsible - Applications, and Data
+        CSP is responsible - Runtime, Middleware, OS, Virtualization, Servers, Storage, and Networking
+    Software as a Service - CSP is responsible for everything 
+    
+Cloud Deployment Models...
+Azure's Deployment Models... 
+    Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
+    Private Cloud (On-Primise) - Everything is built on company's datacenters; OpenStack
+    Hybrid - Uses both On--Primise and Cloud Service Provider
+Cross-Cloud - Using Multiple Cloud Providers; hybride-cloud (Azure Arc)
+
+Total Ownership...
+Total Cost of Ownership (TCO)...
+    On-Premise - Software license fee; Implementation, Configuration, Training...Physical Security, Hardware, IT Personal, and Maintenance
+    Azure - Subscription fee;  Implementation, Configuration, Training
+    Azure can save around 75% money
+    
+Capital vs Operational Expenditure...
