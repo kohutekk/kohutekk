@@ -1,6 +1,6 @@
 Microsoft Azure A-Z 900 Certification Notes:
 
--------------- CLOUD CONCEPTS 25% - 30% --------------
+-------------- CLOUD CONCEPTS --------------
 What is Cloud Computing...
     - Cloud Computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
         - Cloud Providers - you are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
@@ -99,4 +99,19 @@ High Durability...
         - Does your backup still work
         - How do you ensure current live data is not corrupt
 
-40:27 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
+
+-------------- EVOLUTION OF COMPUTING  --------------
+Dedicated Services...
+    Dedicated - physical server wholly utilized by a single customer; overpay for an underutilitzed server; Upgrading beyond your Operating System is slow and expensive; multiple apps can be conflicts in resource sharing; guarantee of security, privacy and full utility of underlying resources
+    
+Virtual Machines...
+    VMs - run multiple VMs on one machine; hypervisor is VM software; shared by multiple customers; paying for a fraction of the server; overpay and underutilized; limited by guest operating system; less conflicts but still an issue
+    
+Containers...
+    Containers - VMs can run multiple containers; Docker Deamon - software layer that runs containers; more cost effective with using the maximum space; containers share the same base OS so more efficient then multiple VMs; Doen't have any conflicts bc running different copies of the OS within the VM
+    
+ Functions...
+    Function - Serverless COmpute - VMs running managed containers; you upload the amount of memory and duration; only responsible for code, and data; very cost-effective; VMs only run when there is code to be executed. 
+    Cold Starts - wait to start before the code exicutes
+
+46:24 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
