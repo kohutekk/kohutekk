@@ -1,28 +1,28 @@
 Microsoft Azure A-Z 900 Certification Notes:
 
+-------------- CLOUD CONCEPTS 25% - 30% --------------
 What is Cloud Computing...
-    Cloud Computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
-        Cloud Providers - you are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
-  
-    Dedicated server - one host, one machine, one vpn
-        Expensive, high maintenance, high security
-    Virtual Private Server - one host, one machine, multiple vpn
-    Shared Hosting - multiple host, one machine, multiple vpn
-        Cheap, limited
-    Cloud Hosting - Multiple hosts, multiple machines, multiple vpn
-        Scalable, Secure, Cost-Effective, High Configurability
+    - Cloud Computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
+        - Cloud Providers - you are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
+    - Dedicated server - one host, one machine, one vpn
+        - Expensive, high maintenance, high security
+    - Virtual Private Server - one host, one machine, multiple vpn
+    - Shared Hosting - multiple host, one machine, multiple vpn
+        - Cheap, limited
+    - Cloud Hosting - Multiple hosts, multiple machines, multiple vpn
+        - Scalable, Secure, Cost-Effective, High Configurability
 
 Common Cloud Services...
     4 most common types of cloud services for Infractructure as a service (IaaS) would be:
-        Compute - virtual comp that runs applications, programs and code
-        Storage - virtual hard-drive that stores files
-        Networking - virtual network that defines internet connections and network isolations
-        Databases - virtual database for storing reporting data or a database for general purpose
+        - Compute - virtual comp that runs applications, programs and code
+        - Storage - virtual hard-drive that stores files
+        - Networking - virtual network that defines internet connections and network isolations
+        - Databases - virtual database for storing reporting data or a database for general purpose
         
 What is Microsoft...
-    Microsoft - American computer technology corportation; makes software, phones, tablets, game consoles, cloud services, search engine and more; best known for their Operation System
-    Microsoft Azure - the cloud provider service microsoft provides; bright blue color of the cloudless sky 
-    CSPs - Cloud Service Providers
+    - Microsoft - American computer technology corportation; makes software, phones, tablets, game consoles, cloud services, search engine and more; best known for their Operation System
+    - Microsoft Azure - the cloud provider service microsoft provides; bright blue color of the cloudless sky 
+    - CSPs - Cloud Service Providers
     
 Benefits of Cloud Computing...
     Cost-effective - pay for what you consume; no up-front cost; pay as you go (PAYG)
@@ -34,69 +34,69 @@ Benefits of Cloud Computing...
     Current - fewer interupptions then on ground (aka if you are updating or updgrading hardware and software)
     
 Types of Cloud Computing...
-    SaaS Software as a Service - a product that is runned and managed by a service provider (for customers); no maintanance, it just workds and remains availible; salesforce, gmail, office 365
-    Paas Platform as a service - focus on deployment and management of apps; no worries about provisioning, configuring or understanding he hardware or OS; heroku, elastic beanstalk, google app engine
-    IaaS Infustructure as a Service - basic building blocks of the coud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
+    - SaaS Software as a Service - a product that is runned and managed by a service provider (for customers); no maintanance, it just workds and remains availible; salesforce, gmail, office 365
+    - Paas Platform as a service - focus on deployment and management of apps; no worries about provisioning, configuring or understanding he hardware or OS; heroku, elastic beanstalk, google app engine
+    - IaaS Infustructure as a Service - basic building blocks of the coud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
     
 Types of Cloud Computing Responsibilities... 
-    On-Premise - 
-        Customer is Responsible for everything
-    Infrastructure as a service - 
-        Customer is responsible - Applications, Data, Runtime, Middleware, and OS
-        CSP is responsible - Virtualization, Servers, Storage, and Networking
-    Platform as a Service - 
-        Customer is responsible - Applications, and Data
-        CSP is responsible - Runtime, Middleware, OS, Virtualization, Servers, Storage, and Networking
-    Software as a Service - CSP is responsible for everything 
+    - On-Premise - 
+        - Customer is Responsible for everything
+    - Infrastructure as a service - 
+        - Customer is responsible - Applications, Data, Runtime, Middleware, and OS
+        - CSP is responsible - Virtualization, Servers, Storage, and Networking
+    - Platform as a Service - 
+        - Customer is responsible - Applications, and Data
+        - CSP is responsible - Runtime, Middleware, OS, Virtualization, Servers, Storage, and Networking
+    - Software as a Service - CSP is responsible for everything 
     
 Cloud Deployment Models...
 Azure's Deployment Models... 
-    Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
-    Private Cloud (On-Primise) - Everything is built on company's datacenters; OpenStack
-    Hybrid - Uses both On--Primise and Cloud Service Provider
-Cross-Cloud - Using Multiple Cloud Providers; hybride-cloud (Azure Arc)
+    - Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
+    - Private Cloud (On-Primise) - Everything is built on company's datacenters; OpenStack
+    - Hybrid - Uses both On--Primise and Cloud Service Provider
+    - Cross-Cloud - Using Multiple Cloud Providers; hybride-cloud (Azure Arc)
 
 Total Ownership...
 Total Cost of Ownership (TCO)...
-    On-Premise - Software license fee; Implementation, Configuration, Training...Physical Security, Hardware, IT Personal, and Maintenance
-    Azure - Subscription fee;  Implementation, Configuration, Training
-    Azure can save around 75% money
+    - On-Premise - Software license fee; Implementation, Configuration, Training...Physical Security, Hardware, IT Personal, and Maintenance
+    - Azure - Subscription fee;  Implementation, Configuration, Training
+    - Azure can save around 75% money
     
 Capital vs Operational Expenditure...
-    Capital Expenditure (CAPEX) - Spending money upfront; Server, Storage, Networks, Backup and Archive, Disaster Recovery, Datacenter Costs, and Technical Personal; it's a guessing game
-    Operational Expenditure (OPEX) - non-pysical costs with a service provider; Leasing Software and Customizing features, Training Employees in Cloud Services, Paying for Cloud Support, and Billing based on cloud metrics eg. compute and storage usage; can try products without investing in the equiptment. 
+    - Capital Expenditure (CAPEX) - Spending money upfront; Server, Storage, Networks, Backup and Archive, Disaster Recovery, Datacenter Costs, and Technical Personal; it's a guessing game
+    - Operational Expenditure (OPEX) - non-pysical costs with a service provider; Leasing Software and Customizing features, Training Employees in Cloud Services, Paying for Cloud Support, and Billing based on cloud metrics eg. compute and storage usage; can try products without investing in the equiptment. 
     
 Cloud Architecture Terminologies...
-    Availability - ensure a service remains available; High Available (HA)
-    Scalability - ability to grow rapidly or unimpeded
-    Elasticity - ability to shrink or grow to meet the demand
-    Fault Tolerance - ability to prevent a failure 
-    Disaster Recovery - ability to recover from failure; Highly Durable (DR)
+    - Availability - ensure a service remains available; High Available (HA)
+    - Scalability - ability to grow rapidly or unimpeded
+    - Elasticity - ability to shrink or grow to meet the demand
+    - Fault Tolerance - ability to prevent a failure 
+    - Disaster Recovery - ability to recover from failure; Highly Durable (DR)
     
 HA (High Availability)...
-    Ability for the service to remain availible by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs becone unvailable, the service remains available
-    Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will rout the traffic to availble datacenters
+    - Ability for the service to remain availible by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs becone unvailable, the service remains available
+    - Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will rout the traffic to availble datacenters
 
 High Scalability...
-    Increase the capacity based on the increasing demand of traffic, memory and computing power
-    Vertical Scaling - Upgrade to a bigger server
-    Horizonal Scaling - Add more servers of the same size
+    - Increase the capacity based on the increasing demand of traffic, memory and computing power
+    - Vertical Scaling - Upgrade to a bigger server
+    - Horizonal Scaling - Add more servers of the same size
     
 High Elasticity...
-    Automatically increase or decrease the capacity based on the current demand of traffic, memory, and computing power
-    Horizonal Scaling - 
-        Scaling out - adding more servers of same size
-        Scaling in - removing more servers of the same size 
-    Azure VM Scale Set - responds to demand or a defines schedule to increase or decrease
-    SQL Server Stretch Database - stretch warm and cold transactional data from Microsoft SQL Server 2016 to Azure
-    Vertical CSaling is hard for traditional architecture. 
+    - Automatically increase or decrease the capacity based on the current demand of traffic, memory, and computing power
+    - Horizonal Scaling - 
+        - Scaling out - adding more servers of same size
+        - Scaling in - removing more servers of the same size 
+    - Azure VM Scale Set - responds to demand or a defines schedule to increase or decrease
+    - SQL Server Stretch Database - stretch warm and cold transactional data from Microsoft SQL Server 2016 to Azure
+    - Vertical CSaling is hard for traditional architecture. 
     
 Fault Tolerance...
 High Durability...
-    ability to recover from a disaster to present the loss of data; Disaster Recovery (DR)
-    - Do you have a backup
-    - How fast can you restore that backup
-    - Does your backup still work
-    - How do you ensure current live data is not corrupt
+    - ability to recover from a disaster to present the loss of data; Disaster Recovery (DR)
+        - Do you have a backup
+        - How fast can you restore that backup
+        - Does your backup still work
+        - How do you ensure current live data is not corrupt
 
 40:27 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
