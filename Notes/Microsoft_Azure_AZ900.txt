@@ -152,7 +152,7 @@ Fault and Update Domains...
     Availability Set- logiacal grouping to ensure the VMs have different fault/update domains to aviod downtime. 
     
 
--------------- EVOLUTION OF COMPUTING  --------------
-    
+-------------- Technology Overview  --------------
+Computing Services...
 
-46:24 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
+1:07:07 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
