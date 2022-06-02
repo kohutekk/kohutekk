@@ -154,5 +154,49 @@ Fault and Update Domains...
 
 -------------- Technology Overview  --------------
 Computing Services...
+    Azure VMs - most common type of compute; you choose OS, Memory CPU and storage; the hardware is shared
+    Azure Container Instances - Docker as a service; runs containerized apps without provisioning servers or VMs
+    Azure Kubernetes Services (AKS) - Kubernetes as Service - easy to deploy manage and scale containerized applications; uses the open source (K8) Kubernetes software
+    Azure Service Fabric - Runs on Azure cloud or on-primise; easy to package, deploy and manages scalable and reliable microservices
+    Azure Functions - Event-driven, serverless compute(functions); you pay for only the compute time you comsume
+    Azure Batch - plans schedules and excutes your batch computer workloads across running 100+ jobs in parallel; use spot VMs to save money (low priority VMs to save on compute
+    
+Storage Services...
+    Blob storage - Object serverless storage; store loarge files and loarge amounts of files; you pary for what you store, unlimited storage, no-resizing volumes and filesystem protocol
+    Dick Storage - virtual volume; SSD or HDD encryption by default, attached volume to VMs
+    File Storage - volume you can access and manage like a gile server 
+    Queue Storage - Messaging Queue; store queuing and reliably delivering messages between applications
+    Table Storage - Wide-Column NoSQL Database; hosts unstructured data independent any schema
+    Data box (heavy) - rugged briefcase computer and storage designed to move terabytes or petabytes of data
+    Atchive storage - long term cold storage to hold onto files for years for cheap
+    Data Lake Storage - store all structured and unstructured data at any scale
+    
+Database Services...
+    Cosmost DB - noSQL database; 99.999% availability
+    SQL DB - Fully managed MS SQL DB with auto scale integral intelligence and robust security
+    DB for MySQL/PQL/MariaDB - scalable DB with high availability and security
+    SQL server on VMs - Lift and shift MS SQL servers from on -premise to Cloud
+    Synaapse Anaytics (SQL Data Warehouse) - data warehouse with security at every level with no extra cost
+    DB Migration Service - migrates your DB to cloud with no application code changes
+    Cache for Redis - Caches frequently used and static data to reduce data and application latency 
+    Table Storage - Wide-Column NoSQL DB a noSQL that hosts unstaruchered data independent of any schema
+    
+Application Integration Services...
+    Notifications Hub - Pub/Sub send push to any platform 
+    API Apps - API Gateway; build and consume API in the cloud
+    Service Bus - could messaging as a service (MaaS) 
+    Stream Analytics - real-time analytics; cloud to the edge
+    Logic Apps - schedule automate and orchestrate tasks 
+    API Management - put this infront of an API to add additional functionality
+    Queue storage - Messaging Queue between apps
+    
+Developer and Mobile Tools...
+    SignalR Sercice - real-time messaging functionality to applications
+    App Service - deployting scaling web-applications so developers focus on building their web-apps
+    Visual Studio - Code Editor; IDE for creating powerful scalable applications for Azure
+    Xamarin - Mobile-App Framework; creates apps
+    
+Azure DevOps Services...
 
-1:07:07 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
+
+1:20:45 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
