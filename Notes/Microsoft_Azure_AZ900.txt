@@ -113,5 +113,46 @@ Containers...
  Functions...
     Function - Serverless COmpute - VMs running managed containers; you upload the amount of memory and duration; only responsible for code, and data; very cost-effective; VMs only run when there is code to be executed. 
     Cold Starts - wait to start before the code exicutes
+    
+-------------- Global Infrastructure --------------
+Regions and Geographies...
+    Region - grouping of multiple datacenters (Availability Zones)
+        - Azure has 58 Regions across 140 Contries
+    Geography - 2 or more regions that preserves data residency and compliance bounarties.
+    
+Paired Region...
+    Each region is paired with another 300 mils away to ensure no outages for disaster recovery
+    Azure Geo-Redundant Storage (GRS) - replicates the data to the secondary region automatically wo ensure the data is durable during an event
+    
+ Region Types and Service Availability...
+    Not all Azure cloud services are available in every region
+    Recommended region - designed to support availability zone; provides tht broadest range of service capabilities
+    Alternate (Other) region - not designed to support AZ. 
+    General Availibility (GA) - when a service is considered ready to be used pubilicaly
+    Azure cloud services categories:
+        - Foundational - GA immediately or in 12months in recommended and alternate regions
+        - Mainstream - GA immediately or in 12 months in recommended regions (May become available in Alternate regions based on customer demand)
+        - Specialized - avalible in recommended or alternate region based on cunsumer demand
+ 
+Special Regions...
+    Azure has specialized regions to meet compliance or legal reasons
+
+Avalibility Zones (AZ)...
+    AZ - is a physiscal location made up of one or more datacenter
+    datacenter - secured building that contains hundreds of thousands of computers; isolated from each other but close enough to provide low-latency
+    regions genreally contains 3 AZ; to ensure servers have backup for High Availbility 
+    
+AZ Supported Regions...
+    Alternate or Other Regions - doesn't have support for Availability Zones; recommended to have 3AZ
+
+Fault and Update Domains...
+    AZ - combonation of a fault domain and an update domain
+    Fault Domain - hardware to avaiod a single point of failure within an AZ
+    Update Domain - When updating this domain ensures your resources do not go offline
+    Availability Set- logiacal grouping to ensure the VMs have different fault/update domains to aviod downtime. 
+    
+
+-------------- EVOLUTION OF COMPUTING  --------------
+    
 
 46:24 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
