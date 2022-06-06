@@ -1,11 +1,14 @@
 //Summary Ranges
-
-import java.util.Scanner;
-import java.util.Arrays;
+import java.io.*;
+import java.util.*;
 
 public class MyClass {
     public static void main(String args[]) {
       Scanner scan = new Scanner(System.in);
+      int start, end; 
+      Boolean mark = false; 
+      Stack<String> stack = new Stack<String>();
+      
       System.out.println("Enter int list: ");
       
       String str = scan.nextLine();
@@ -17,17 +20,23 @@ public class MyClass {
       }
       
       for(int i = 0; i < (nums.length - 1); i++){
-          if(i = 0){
+          if(i == 0){
               start = nums[i];
               continue; 
-          }else if(nums[i] = start + 1){
+          }else if(nums[i] == start + 1){
               end = nums[i];
               mark = true; 
           }else{
-              end = null; 
+              end == null; 
               mark = false; 
           }
           
+          if(mark = false && end = null){
+              stack.push(start);
+              continue;
+          }else if(mark = false){
+              stack.push(start + "->" + end);
+          }
           
           /*int j = i + 1;
           System.out.println(nums[i] + " : " + nums[j]);
@@ -38,5 +47,8 @@ public class MyClass {
           }
           System.out.println("----------------------------------------------");*/
       }
+      
+      System.out.println(stack);
+      
     }
 }
