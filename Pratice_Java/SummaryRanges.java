@@ -27,7 +27,7 @@ public class MyClass {
               end = nums[i];
               mark = true; 
           }else{
-              end == null; 
+              end = null; 
               mark = false; 
           }
           
