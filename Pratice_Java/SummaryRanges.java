@@ -17,14 +17,26 @@ public class MyClass {
       }
       
       for(int i = 0; i < (nums.length - 1); i++){
-          int j = i + 1;
+          if(i = 0){
+              start = nums[i];
+              continue; 
+          }else if(nums[i] = start + 1){
+              end = nums[i];
+              mark = true; 
+          }else{
+              end = null; 
+              mark = false; 
+          }
+          
+          
+          /*int j = i + 1;
           System.out.println(nums[i] + " : " + nums[j]);
           if(nums[i] == (nums[j] - 1)){
               System.out.println(nums[i] + " is one more than " + nums[j]);
           }else{
               System.out.println(nums[i] + " is NOT one more than " + nums[j]);
           }
-          System.out.println("----------------------------------------------");
+          System.out.println("----------------------------------------------");*/
       }
     }
 }
