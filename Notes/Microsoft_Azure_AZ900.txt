@@ -1,202 +1,121 @@
 Microsoft Azure A-Z 900 Certification Notes:
 
--------------- CLOUD CONCEPTS --------------
-What is Cloud Computing...
-    - Cloud Computing - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
-        - Cloud Providers - you are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
-    - Dedicated server - one host, one machine, one vpn
-        - Expensive, high maintenance, high security
-    - Virtual Private Server - one host, one machine, multiple vpn
-    - Shared Hosting - multiple host, one machine, multiple vpn
-        - Cheap, limited
-    - Cloud Hosting - Multiple hosts, multiple machines, multiple vpn
-        - Scalable, Secure, Cost-Effective, High Configurability
+----Describe cloud concepts (25–30%)----
+Describe cloud computing
+    define cloud computing
+        - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
+    Cloud Providers 
+        - are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
+describe the shared responsibility model
+Image attached to folder
+define cloud models, including public, private, and hybrid
+Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
+Private Cloud (On-Premise) - Everything is built on company's data centers; OpenStack
+Hybrid - Uses both On--Premise and Cloud Service Provider
+Cross-Cloud - Using Multiple Cloud Providers; hybrid-cloud (Azure Arc)
+identify appropriate use cases for each cloud model
+describe the consumption-based model
+compare cloud pricing models
 
-Common Cloud Services...
-    4 most common types of cloud services for Infractructure as a service (IaaS) would be:
-        - Compute - virtual comp that runs applications, programs and code
-        - Storage - virtual hard-drive that stores files
-        - Networking - virtual network that defines internet connections and network isolations
-        - Databases - virtual database for storing reporting data or a database for general purpose
-        
-What is Microsoft...
-    - Microsoft - American computer technology corportation; makes software, phones, tablets, game consoles, cloud services, search engine and more; best known for their Operation System
-    - Microsoft Azure - the cloud provider service microsoft provides; bright blue color of the cloudless sky 
-    - CSPs - Cloud Service Providers
-    
-Benefits of Cloud Computing...
-    Cost-effective - pay for what you consume; no up-front cost; pay as you go (PAYG)
-    Global - launch from anywhere in the world
-    Secure - cloud services can by secure by default
-    Reliable - data backup, disaster reconvery, and data replication, and fault tolerance
-    Scalable - can increase or decrease resources and services based on demand
-    Elastic - Automate scaling during spikes or drop in demand
-    Current - fewer interupptions then on ground (aka if you are updating or updgrading hardware and software)
-    
-Types of Cloud Computing...
-    - SaaS Software as a Service - a product that is runned and managed by a service provider (for customers); no maintanance, it just workds and remains availible; salesforce, gmail, office 365
-    - Paas Platform as a service - focus on deployment and management of apps; no worries about provisioning, configuring or understanding he hardware or OS; heroku, elastic beanstalk, google app engine
-    - IaaS Infustructure as a Service - basic building blocks of the coud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
-    
-Types of Cloud Computing Responsibilities... 
-    - On-Premise - 
-        - Customer is Responsible for everything
-    - Infrastructure as a service - 
-        - Customer is responsible - Applications, Data, Runtime, Middleware, and OS
-        - CSP is responsible - Virtualization, Servers, Storage, and Networking
-    - Platform as a Service - 
-        - Customer is responsible - Applications, and Data
-        - CSP is responsible - Runtime, Middleware, OS, Virtualization, Servers, Storage, and Networking
-    - Software as a Service - CSP is responsible for everything 
-    
-Cloud Deployment Models...
-Azure's Deployment Models... 
-    - Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
-    - Private Cloud (On-Primise) - Everything is built on company's datacenters; OpenStack
-    - Hybrid - Uses both On--Primise and Cloud Service Provider
-    - Cross-Cloud - Using Multiple Cloud Providers; hybride-cloud (Azure Arc)
+Describe the benefits of using cloud services
+describe the benefits of high availability and scalability in the cloud
+HA 
+Ability for the service to remain available by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs become unavailable, the service remains available
+Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will route the traffic to available data centers
+High Scalability
+Increase the capacity based on the increasing demand of traffic, memory and computing power
+Vertical Scaling - Upgrade to a bigger server
+Horizontal Scaling - Add more servers of the same size
+describe the benefits of reliability and predictability in the cloud
+Reliable 
+data backup, disaster recovery, and data replication, and fault tolerance
+   
+describe the benefits of security and governance in the cloud
+describe the benefits of manageability in the cloud
 
-Total Ownership...
-Total Cost of Ownership (TCO)...
-    - On-Premise - Software license fee; Implementation, Configuration, Training...Physical Security, Hardware, IT Personal, and Maintenance
-    - Azure - Subscription fee;  Implementation, Configuration, Training
-    - Azure can save around 75% money
-    
-Capital vs Operational Expenditure...
-    - Capital Expenditure (CAPEX) - Spending money upfront; Server, Storage, Networks, Backup and Archive, Disaster Recovery, Datacenter Costs, and Technical Personal; it's a guessing game
-    - Operational Expenditure (OPEX) - non-pysical costs with a service provider; Leasing Software and Customizing features, Training Employees in Cloud Services, Paying for Cloud Support, and Billing based on cloud metrics eg. compute and storage usage; can try products without investing in the equiptment. 
-    
-Cloud Architecture Terminologies...
-    - Availability - ensure a service remains available; High Available (HA)
-    - Scalability - ability to grow rapidly or unimpeded
-    - Elasticity - ability to shrink or grow to meet the demand
-    - Fault Tolerance - ability to prevent a failure 
-    - Disaster Recovery - ability to recover from failure; Highly Durable (DR)
-    
-HA (High Availability)...
-    - Ability for the service to remain availible by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs becone unvailable, the service remains available
-    - Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will rout the traffic to availble datacenters
-
-High Scalability...
-    - Increase the capacity based on the increasing demand of traffic, memory and computing power
-    - Vertical Scaling - Upgrade to a bigger server
-    - Horizonal Scaling - Add more servers of the same size
-    
-High Elasticity...
-    - Automatically increase or decrease the capacity based on the current demand of traffic, memory, and computing power
-    - Horizonal Scaling - 
-        - Scaling out - adding more servers of same size
-        - Scaling in - removing more servers of the same size 
-    - Azure VM Scale Set - responds to demand or a defines schedule to increase or decrease
-    - SQL Server Stretch Database - stretch warm and cold transactional data from Microsoft SQL Server 2016 to Azure
-    - Vertical CSaling is hard for traditional architecture. 
-    
-Fault Tolerance...
-High Durability...
-    - ability to recover from a disaster to present the loss of data; Disaster Recovery (DR)
-        - Do you have a backup
-        - How fast can you restore that backup
-        - Does your backup still work
-        - How do you ensure current live data is not corrupt
+Describe cloud service types
+describe infrastructure as a service (IaaS)
+basic building blocks of cloud IT. Provides access to networking features, computers, and data storage space; Microsoft Azure, AWS, Oracle
+Compute - virtual comp that runs applications, programs and code
+Storage - virtual hard-drive that stores files
+Networking - virtual network that defines internet connections and network isolations
+Databases - virtual database for storing reporting data or a database for general purpose
+describe platform as a service (PaaS)
+focus on deployment and management of apps; no worries about provisioning, configuring or understanding he hardware or OS; heroku, elastic beanstalk, google app engine
+describe software as a service (SaaS)
+a product that is runned and managed by a service provider (for customers); no maintenance, it just works and remains available; salesforce, gmail, office 365
+identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS)
 
 
--------------- EVOLUTION OF COMPUTING  --------------
-Dedicated Services...
-    Dedicated - physical server wholly utilized by a single customer; overpay for an underutilitzed server; Upgrading beyond your Operating System is slow and expensive; multiple apps can be conflicts in resource sharing; guarantee of security, privacy and full utility of underlying resources
-    
-Virtual Machines...
-    VMs - run multiple VMs on one machine; hypervisor is VM software; shared by multiple customers; paying for a fraction of the server; overpay and underutilized; limited by guest operating system; less conflicts but still an issue
-    
-Containers...
-    Containers - VMs can run multiple containers; Docker Deamon - software layer that runs containers; more cost effective with using the maximum space; containers share the same base OS so more efficient then multiple VMs; Doen't have any conflicts bc running different copies of the OS within the VM
-    
- Functions...
-    Function - Serverless COmpute - VMs running managed containers; you upload the amount of memory and duration; only responsible for code, and data; very cost-effective; VMs only run when there is code to be executed. 
-    Cold Starts - wait to start before the code exicutes
-    
--------------- Global Infrastructure --------------
-Regions and Geographies...
-    Region - grouping of multiple datacenters (Availability Zones)
-        - Azure has 58 Regions across 140 Contries
-    Geography - 2 or more regions that preserves data residency and compliance bounarties.
-    
-Paired Region...
-    Each region is paired with another 300 mils away to ensure no outages for disaster recovery
-    Azure Geo-Redundant Storage (GRS) - replicates the data to the secondary region automatically wo ensure the data is durable during an event
-    
- Region Types and Service Availability...
-    Not all Azure cloud services are available in every region
-    Recommended region - designed to support availability zone; provides tht broadest range of service capabilities
-    Alternate (Other) region - not designed to support AZ. 
-    General Availibility (GA) - when a service is considered ready to be used pubilicaly
-    Azure cloud services categories:
-        - Foundational - GA immediately or in 12months in recommended and alternate regions
-        - Mainstream - GA immediately or in 12 months in recommended regions (May become available in Alternate regions based on customer demand)
-        - Specialized - avalible in recommended or alternate region based on cunsumer demand
- 
-Special Regions...
-    Azure has specialized regions to meet compliance or legal reasons
+Describe Azure architecture and services (35–40%)
+Describe the core architectural components of Azure
+describe Azure regional, regional pairs, and sovereign regions
+describe availability zones
+is a physical location made up of one or more datacenter 
+regions generally contains 3 AZ; to ensure servers have backup for High Availability 
+describe Azure datacenters
+secured building that contains hundreds of thousands of computers; isolated from each other but close enough to provide low-latency
+describe Azure resources and resource groups
+describe subscriptions
+describe management groups
+describe the hierarchy of resource groups, subscriptions, and management groups
 
-Avalibility Zones (AZ)...
-    AZ - is a physiscal location made up of one or more datacenter
-    datacenter - secured building that contains hundreds of thousands of computers; isolated from each other but close enough to provide low-latency
-    regions genreally contains 3 AZ; to ensure servers have backup for High Availbility 
-    
-AZ Supported Regions...
-    Alternate or Other Regions - doesn't have support for Availability Zones; recommended to have 3AZ
+Describe Azure compute and networking services
+compare compute types, including container instances, virtual machines (VMs), and functions
+describe VM options, including Azure Virtual Machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop
+describe resources required for virtual machines
+run multiple VMs on one machine; hypervisor is VM software; shared by multiple customers; paying for a fraction of the server; overpay and underutilized; limited by guest operating system; less conflicts but still an issue
+describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines
+describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute
+define public and private endpoints
 
-Fault and Update Domains...
-    AZ - combonation of a fault domain and an update domain
-    Fault Domain - hardware to avaiod a single point of failure within an AZ
-    Update Domain - When updating this domain ensures your resources do not go offline
-    Availability Set- logiacal grouping to ensure the VMs have different fault/update domains to aviod downtime. 
-    
-
--------------- Technology Overview  --------------
-Computing Services...
-    Azure VMs - most common type of compute; you choose OS, Memory CPU and storage; the hardware is shared
-    Azure Container Instances - Docker as a service; runs containerized apps without provisioning servers or VMs
-    Azure Kubernetes Services (AKS) - Kubernetes as Service - easy to deploy manage and scale containerized applications; uses the open source (K8) Kubernetes software
-    Azure Service Fabric - Runs on Azure cloud or on-primise; easy to package, deploy and manages scalable and reliable microservices
-    Azure Functions - Event-driven, serverless compute(functions); you pay for only the compute time you comsume
-    Azure Batch - plans schedules and excutes your batch computer workloads across running 100+ jobs in parallel; use spot VMs to save money (low priority VMs to save on compute
-    
-Storage Services...
-    Blob storage - Object serverless storage; store loarge files and loarge amounts of files; you pary for what you store, unlimited storage, no-resizing volumes and filesystem protocol
-    Dick Storage - virtual volume; SSD or HDD encryption by default, attached volume to VMs
-    File Storage - volume you can access and manage like a gile server 
-    Queue Storage - Messaging Queue; store queuing and reliably delivering messages between applications
-    Table Storage - Wide-Column NoSQL Database; hosts unstructured data independent any schema
-    Data box (heavy) - rugged briefcase computer and storage designed to move terabytes or petabytes of data
-    Atchive storage - long term cold storage to hold onto files for years for cheap
-    Data Lake Storage - store all structured and unstructured data at any scale
-    
-Database Services...
-    Cosmost DB - noSQL database; 99.999% availability
-    SQL DB - Fully managed MS SQL DB with auto scale integral intelligence and robust security
-    DB for MySQL/PQL/MariaDB - scalable DB with high availability and security
-    SQL server on VMs - Lift and shift MS SQL servers from on -premise to Cloud
-    Synaapse Anaytics (SQL Data Warehouse) - data warehouse with security at every level with no extra cost
-    DB Migration Service - migrates your DB to cloud with no application code changes
-    Cache for Redis - Caches frequently used and static data to reduce data and application latency 
-    Table Storage - Wide-Column NoSQL DB a noSQL that hosts unstaruchered data independent of any schema
-    
-Application Integration Services...
-    Notifications Hub - Pub/Sub send push to any platform 
-    API Apps - API Gateway; build and consume API in the cloud
-    Service Bus - could messaging as a service (MaaS) 
-    Stream Analytics - real-time analytics; cloud to the edge
-    Logic Apps - schedule automate and orchestrate tasks 
-    API Management - put this infront of an API to add additional functionality
-    Queue storage - Messaging Queue between apps
-    
-Developer and Mobile Tools...
-    SignalR Sercice - real-time messaging functionality to applications
-    App Service - deployting scaling web-applications so developers focus on building their web-apps
-    Visual Studio - Code Editor; IDE for creating powerful scalable applications for Azure
-    Xamarin - Mobile-App Framework; creates apps
-    
-Azure DevOps Services...
+Describe Azure storage services
+compare Azure storage services
+Blob storage - Object serverless storage; store loarge files and loarge amounts of files; you pary for what you store, unlimited storage, no-resizing volumes and filesystem protocol
+Dick Storage - virtual volume; SSD or HDD encryption by default, attached volume to VMs
+File Storage - volume you can access and manage like a gile server 
+Queue Storage - Messaging Queue; store queuing and reliably delivering messages between applications
+Table Storage - Wide-Column NoSQL Database; hosts unstructured data independent any schema
+Data box (heavy) - rugged briefcase computer and storage designed to move terabytes or petabytes of data
+Archive storage - long term cold storage to hold onto files for years for cheap
+Data Lake Storage - store all structured and unstructured data at any scale
+describe storage tiers
+describe redundancy options
+describe storage account options and storage types
+identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync
+describe migration options, including Azure Migrate and Azure Data Box Describe Azure identity, access, and security
+DB Migration Service - migrates your DB to cloud with no application code changes
+Data box (heavy) - rugged briefcase computer and storage designed to move terabytes or petabytes of data
+describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)
+describe authentication methods in Azure, including single sign-on (SSO), multi factor authentication, and passwordless
+describe external identities and guest access in Azure
+describe Azure AD Conditional Access
+describe Azure role-based access control (RBAC)
+describe the concept of Zero Trust
+describe the purpose of the defense in depth model
+Describe the purpose of Microsoft Defender for Cloud
 
 
-1:20:45 : https://www.youtube.com/watch?v=NKEFWyqJ5XA&t=774s
+Describe Azure management and governance (30–35%)
+Describe cost management in Azure
+describe factors that can affect costs in Azure
+compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
+describe the Azure Cost Management and Billing tool
+describe the purpose of tags
+
+Describe features and tools in Azure for governance and compliance
+describe the purpose of Azure Blueprints
+describe the purpose of Azure Policy
+describe the purpose of resource locks
+describe the purpose of the Service Trust Portal
+
+Describe features and tools for managing and deploying Azure resources
+describe the Azure portal
+describe Azure Cloud Shell, including Azure CLI and Azure PowerShell
+describe the purpose of Azure Arc
+describe Azure Resource Manager and Azure Resource Manager templates (ARM templates)
+
+Describe monitoring tools in Azure
+describe the purpose of Azure Advisor
+describe Azure Service Health
+describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
