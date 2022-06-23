@@ -4,31 +4,30 @@ Microsoft Azure A-Z 900 Certification Notes:
 Describe cloud computing
     define cloud computing
         - a network of remote servers hosted on the Internet to store, manage, and process data. (Rather than a local server or a PC)
-    Cloud Providers 
-        - are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
-describe the shared responsibility model
-Image attached to folder
-define cloud models, including public, private, and hybrid
-Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
-Private Cloud (On-Premise) - Everything is built on company's data centers; OpenStack
-Hybrid - Uses both On--Premise and Cloud Service Provider
-Cross-Cloud - Using Multiple Cloud Providers; hybrid-cloud (Azure Arc)
-identify appropriate use cases for each cloud model
-describe the consumption-based model
-compare cloud pricing models
+        - Cloud Providers - are only responsible for configuring cloud services, and code while someone else takes care of the servers, hiring IT, paying the real-estate.
+    describe the shared responsibility model
+        - Image attached to folder
+    define cloud models, including public, private, and hybrid
+        - Public Cloud (Coud-Native) - Everything is built on the Cloud Provider
+        - Private Cloud (On-Premise) - Everything is built on company's data centers; OpenStack
+        - Hybrid - Uses both On--Premise and Cloud Service Provider
+        - Cross-Cloud - Using Multiple Cloud Providers; hybrid-cloud (Azure Arc)
+    identify appropriate use cases for each cloud model
+    describe the consumption-based model
+    compare cloud pricing models
 
 Describe the benefits of using cloud services
-describe the benefits of high availability and scalability in the cloud
-HA 
-Ability for the service to remain available by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs become unavailable, the service remains available
-Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will route the traffic to available data centers
-High Scalability
-Increase the capacity based on the increasing demand of traffic, memory and computing power
-Vertical Scaling - Upgrade to a bigger server
-Horizontal Scaling - Add more servers of the same size
-describe the benefits of reliability and predictability in the cloud
-Reliable 
-data backup, disaster recovery, and data replication, and fault tolerance
+    describe the benefits of high availability and scalability in the cloud
+        - HA 
+            - Ability for the service to remain available by ensuring there is no single point of failure!; Running through multiple Availability Zones ensures that if 1 or 2 AZs become unavailable, the service remains available
+            - Azure Load Balancer - evenly distributes traffic to multiple servers. if datacenter becomes unavailable the load balancer will route the traffic to available data centers
+        - High Scalability
+            - Increase the capacity based on the increasing demand of traffic, memory and computing power
+            - Vertical Scaling - Upgrade to a bigger server
+            - Horizontal Scaling - Add more servers of the same size
+    describe the benefits of reliability and predictability in the cloud
+        - Reliable 
+            - data backup, disaster recovery, and data replication, and fault tolerance
    
 describe the benefits of security and governance in the cloud
 describe the benefits of manageability in the cloud
